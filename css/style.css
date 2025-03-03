@@ -1,0 +1,347 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family:font-family: "Montserrat", sans-serif; 
+    font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:   font-family: "Montserrat", sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.header{
+ 	width: 100%;
+ 	background-color:#436971;
+ 	}
+ 	.allHader{
+ 		width: 100%;
+ 		background-color:linear-gradient(#0B1D26, #0B1D26);
+ 		
+
+ 	}
+ 	.navbar {
+ 		background-color:linear-gradient(#0B1D26, #0B1D26);
+
+ 	}
+ 	
+   .header .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 0px 0px 30px;
+    color:#fff;
+    transition: 1s ease-in;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover,   .header .navbar .navbar-nav .nav-item 
+  .nav-link:focus{
+      color: #FBD784;
+
+  }
+
+   .header .navbar-nav .nav-link.active{
+    color: #FBD784 !important;
+  }
+
+.header .navbar .account .nav-link{
+	font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px 0px 30px;
+    color:#fff;
+    transition: 1s ease-in;
+}
+.header .navbar .account .nav-link:hover, .header .navbar .account .nav-link:focus {
+    color: #FBD784;
+}
+
+
+ .contant{
+ 	width: 100%;
+ 	padding:200px 0px;
+ 	background: url("../images/Gb.jpg")center no-repeat;
+ 	background-size: cover;
+ }
+
+ .contant .social_icon li{
+    list-style: none;
+     font-size: 14px;
+     margin-top: 10px;
+    
+ }
+ .contant .social_icon li a {
+    color: #FFFFFF;
+    transition: 1s ease-in;
+
+ }
+ .contant .social_icon li a:hover, .contant .social_icon li a:focus{
+ 	color: #FBD784;
+ }
+ .banner-inner{
+ 	width: 100%;
+    float: left;
+ }
+ .banner-inner p{
+ 	font-size: 18px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 0px 30px;
+    color:#FBD784;
+
+}
+ .banner-inner img{
+ 	padding: 0px 13px 0px 0px;
+ }
+
+ .banner-inner h1{
+    font-size: 45px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 30px;
+    color:#000;
+ }
+ .banner-inner a{
+ 	font-size: 16px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 0px 30px;
+    color:#FBD784;
+ }
+ .banner-inner a:hover{
+ 	color:#fff;
+ }
+ .banner-inner .fa{
+ 	padding: 0px 0px 0px 12px;
+ }
+ /*--------level stert---------*/
+
+ .level{
+ 	width: 100%;
+ 	padding: 30px 0px;
+ 	background: #0B1D26;
+ }
+.level .number h1{
+	font-size:200px ;
+	color: rgba(255, 255, 255, .1);
+	position: relative;
+
+}
+.getstart {
+    position: absolute;
+    left: 220px;
+    
+    bottom: -320px;
+}
+  .level .getstart .pera{
+ 	font-size: 14px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 20px 0px;
+    color:#FBD784;
+
+}
+ .level .getstart img{
+ 	padding: 0px 13px 0px 0px;
+ }
+
+ .level .getstart h1{
+    font-size: 37px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 20px 0px;
+    color:#fff;
+ }
+ .level .getstart p{
+ 	font-size: 14px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 20px 0px;
+    color:#FFFFFF;
+
+}
+ .level  .getstart a{
+ 	width: 40%;
+ 	font-size: 14px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 20px 0px;
+    color:#FBD784;
+ }
+ .level .getstart a:hover{
+ 	color:#FFFFFF;
+ }
+ .level .getstart .fa{
+ 	padding: 0px 0px 0px 12px;
+ }
+ /*-------piking--------*/
+ .picking{
+ 	width: 100%;
+ 	padding: 30px 0px;
+ 	background: #0B1D26;
+ }
+ .picking .num h1{
+ 	padding: 0px 0px 0px 30px;
+	font-size:200px ;
+	color: rgba(255, 255, 255, .1);
+	position: relative;
+
+}
+.start {
+    position: absolute;
+    padding: 0px 0px 10px 0px;
+    right: 170px;
+    bottom: -1150px;
+}
+  .picking .start .pera{
+ 	font-size: 14px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 20px 0px;
+    color:#FBD784;
+
+}
+ .picking .start img{
+ 	padding: 0px 13px 0px 0px;
+ }
+
+ .picking .start h1{
+    font-size: 37px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 20px 0px;
+    color:#fff;
+ }
+ .picking .start p{
+ 	font-size: 14px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 20px 0px;
+    color:#FFFFFF;
+
+}
+ .picking  .start a{
+ 	width: 40%;
+ 	font-size: 14px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 20px 0px;
+    color:#FBD784;
+ }
+ .picking .start a:hover{
+ 	color:#FFFFFF;
+ }
+ .picking .start .fa{
+ 	padding: 0px 0px 0px 12px;
+ }
+
+ /*------------Timer css------------*/
+
+ .timer{
+ 	width: 100%;
+ 	padding: 30px 0px;
+ 	background: #0B1D26;
+ }
+ .timer .ber h1{
+ 	padding: 0px 0px 0px 30px;
+	font-size:200px;
+	color: rgba(255, 255, 255, .1);
+	position: relative;
+
+}
+.get {
+    position: absolute;
+    padding: 0px 0px 10px 0px;
+    left: 270px;
+    bottom: -1920px;
+}
+  .timer .get .pera{
+ 	font-size: 14px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 20px 0px;
+    color:#FBD784;
+
+}
+ .timer .get img{
+ 	padding: 0px 13px 0px 0px;
+ }
+
+ .timer .get h1{
+    font-size: 37px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 20px 0px;
+    color:#fff;
+ }
+ .timer .get p{
+ 	font-size: 14px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 20px 0px;
+    color:#FFFFFF;
+
+}
+ .timer  .get a{
+ 	width: 40%;
+ 	font-size: 14px;
+    font-weight: 600;
+    text-transform:uppercase;
+    margin: 0px 0px 20px 0px;
+    color:#FBD784;
+ }
+ .timer .get a:hover{
+ 	color:#FFFFFF;
+ }
+ .timer .get .fa{
+ 	padding: 0px 0px 0px 12px;
+ }
+
+ /*---------footer strat--------*/
+
+ .footer{
+ 	width: 100%;
+ 	padding: 80px 0px;
+ 	background:#0B1D26;
+
+ }
+ .footer img{
+ 	
+ 	padding: 0px 0px 20px;
+ }
+
+ .footer p{
+ 	width: 49%;
+ 	font-size: 14px;
+ 	line-height: 1.7em;
+ 	color: #fff;
+ 	font-weight: 600;
+ 	padding: 0px 0px 116px;
+ }
+.footer h6{
+	font-size: 18px;
+ 	line-height: 1.3em;
+ 	color: #FBD784;
+ 	font-weight: 600;
+ 	padding: 0px 0px 10px;
+}
+.footer  ul li{
+    list-style: none;
+    padding: 0px 0px 20px;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: -30px;
+
+  }
+
+  .footer ul li a{
+    color: #fff;
+    padding: 0px;
+    list-style: none;
+    transition: 0.5s ease-in;
+
+  }
+.footer ul li a:hover{
+	color:#FBD784; 
+}
